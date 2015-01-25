@@ -37,10 +37,6 @@ func NewAudioSource(clip AudioClip) *AudioSource {
 	return as
 }
 
-func (this *AudioSource) SetDistanceModel(model DistanceModel) {
-	this.distanceModel = model
-}
-
 func (this *AudioSource) Start() {
 	this.buffers = openal.NewBuffers(4)
 	this.updateBuffers()
@@ -126,7 +122,7 @@ func (this *AudioSource) updateBuffers() {
 
 func (this *AudioSource) Update() {
 	if currentDistanceModel != this.distanceModel {
-		openal.SetDistanceModel(openal.DistanceModel(this.distanceModel))
+		openal.SetDistanceModel(int32(this.distanceModel))
 	}
 	this.UpdateTransform()
 	this.updateBuffers()
