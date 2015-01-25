@@ -1,9 +1,9 @@
 package networkOnline
 
 import (
-	"github.com/vova616/GarageEngine/engine"
+	"github.com/highway900/GarageEngine/engine"
 	//"log"
-	"github.com/vova616/GarageEngine/engine/input"
+	"github.com/highway900/GarageEngine/engine/input"
 )
 
 type CameraController struct {

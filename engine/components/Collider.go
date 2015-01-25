@@ -1,7 +1,7 @@
 package components
 
 import (
-	"github.com/vova616/GarageEngine/engine"
+	"github.com/highway900/GarageEngine/engine"
 	"image"
 )
 

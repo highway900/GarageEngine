@@ -1,8 +1,8 @@
 package game
 
 import (
-	"github.com/vova616/GarageEngine/engine"
-	"github.com/vova616/GarageEngine/engine/input"
+	"github.com/highway900/GarageEngine/engine"
+	"github.com/highway900/GarageEngine/engine/input"
 	//"log"
 	//"github.com/go-gl/glfw"
 	//c "github.com/vova616/chipmunk"
